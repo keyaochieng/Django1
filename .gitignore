@@ -1,0 +1,2 @@
+env/
+#we ignore the environemnt directory cause we don't need that

@@ -1,0 +1,13 @@
+#choreo is going to look inside the .choreo folder for this configuration
+version: 0.1
+
+endpoints:
+  - name: "REST API"
+    port: 8000
+    type: REST
+    networkVisibility: Public
+    context: /
+
+#port needs to match the port of our django_api
+#TYPE: is rest because this is a rest api
+#context: is the base path of the API that we want to expose
